@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVEGAME</title>
+    <style>
+        /* Style global pour centrer le contenu */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Style du texte "LOVEGAME" */
+        h1 {
+            color: red;
+            font-size: 5rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="lovegame-text">LOVEGAME</h1>
+
+    <script>
+        // JavaScript de base si tu veux animer ou manipuler le texte
+        const text = document.getElementById('lovegame-text');
+        // Exemple : Changer la couleur du texte au clic
+        text.addEventListener('click', () => {
+            text.style.color = text.style.color === 'red' ? 'blue' : 'red';
+        });
+    </script>
+</body>
+</html>
